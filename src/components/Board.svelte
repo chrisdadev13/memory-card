@@ -52,10 +52,13 @@
       setTimeout(() => {
         tiles[currentTile.index].active = false;
         tiles[nextTile.index].active = false;
+        currentTile = {};
+        nextTile = {};
       }, 700)
       score--;
     }
     else
+      currentTile = {};
       score++;
   }
 
@@ -63,7 +66,7 @@
     const direction = parseInt(event.target.id);
     const icon = event.target.getAttribute("data")
 
-    if(first == true){
+    if(first == true && Object.keys(currentTile).length === 0){
       currentTile = {index: direction, character: icon}
       first = false;
       tiles[direction].active = true;
