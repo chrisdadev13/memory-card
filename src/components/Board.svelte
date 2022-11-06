@@ -90,7 +90,7 @@
     <button on:click={restartGame}>Restart</button>
   {:else}
     <div id="modal">
-      <h2>Game finished!! {score > 0 ? "Congratulations, you have a decent memory" : "My bro you should take some vitamins to improve that memory"}</h2>
+      <h2>Game finished!! {score > 0 ? "Congratulations, you have a decent memory" : "You can improve a little bit"}</h2>
       <h2>This is your score: {score}</h2>
       <button on:click={restartGame}>Restart</button>
     </div>
