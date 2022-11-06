@@ -11,7 +11,7 @@ Simple memory card game build with Svelte
 
 ---
 
-[Start](https://rad-dolphin-2ff819.netlify.app/)
+[Start here](https://rad-dolphin-2ff819.netlify.app/)
 
 ## ![Preview image](./preview.png)
 
