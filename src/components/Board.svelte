@@ -92,7 +92,7 @@
     <CardsGrid emojis={tiles} onClick={flipTile}/>
     <button on:click={restartGame}>Restart</button>
   {:else}
-    <div id="modal">
+    <div class="modal">
       <h2>Game finished!! {score > 0 ? "Congratulations, you have a decent memory" : "You can improve a little bit"}</h2>
       <h2>This is your score: {score}</h2>
       <button on:click={restartGame}>Restart</button>
@@ -119,7 +119,7 @@
   h1{
     color: white;
   }
-  #modal{
+  .modal{
     background-color: white;
     display: hidden;
     position: absolute;
@@ -129,5 +129,4 @@
     padding: 30px;
     border-radius: 20px;
   }
-
 </style>

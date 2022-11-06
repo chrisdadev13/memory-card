@@ -5,6 +5,3 @@
 <main>
   <Board />
 </main>
-
-<style>
-</style>
