@@ -1,5 +1,4 @@
 # Memory Card
----
 
 Simple memory card game build with Svelte
 
